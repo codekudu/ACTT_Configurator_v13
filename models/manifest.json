@@ -1,0 +1,488 @@
+{
+  "coordinateSystem": "base-model-local",
+  "models": [
+    {
+      "name": "116 Rear Wheels",
+      "obj": "116_rear_wheels.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "116_rear_wheels.mtl"
+    },
+    {
+      "name": "Airlines",
+      "obj": "airlines.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "airlines.mtl"
+    },
+    {
+      "name": "Bbox",
+      "obj": "bbox.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "bbox.mtl"
+    },
+    {
+      "name": "Cab",
+      "obj": "cab.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "cab.mtl"
+    },
+    {
+      "name": "Cvx Mirrors",
+      "obj": "cvx_mirrors.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "cvx_mirrors.mtl"
+    },
+    {
+      "name": "Cylinders",
+      "obj": "cylinders.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "cylinders.mtl"
+    },
+    {
+      "name": "Dash",
+      "obj": "dash.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "dash.mtl"
+    },
+    {
+      "name": "Deftank",
+      "obj": "deftank.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "deftank.mtl"
+    },
+    {
+      "name": "Driveshaft",
+      "obj": "driveshaft.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "driveshaft.mtl"
+    },
+    {
+      "name": "Fenders",
+      "obj": "fenders.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "fenders.mtl"
+    },
+    {
+      "name": "Grabhandle Std",
+      "obj": "grabhandle_std.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "grabhandle_std.mtl"
+    },
+    {
+      "name": "Grille",
+      "obj": "grille.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "grille.mtl"
+    },
+    {
+      "name": "Headlight",
+      "obj": "headlight.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "headlight.mtl"
+    },
+    {
+      "name": "Isb Aft Stack",
+      "obj": "isb_aft_stack.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "isb_aft_stack.mtl"
+    },
+    {
+      "name": "Lh Fuel Round",
+      "obj": "lh_fuel_round.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "lh_fuel_round.mtl"
+    },
+    {
+      "name": "Lh Steps",
+      "obj": "lh_steps.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "lh_steps.mtl"
+    },
+    {
+      "name": "Lh Tank Decking",
+      "obj": "lh_tank_decking.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "lh_tank_decking.mtl"
+    },
+    {
+      "name": "Mirrors Std",
+      "obj": "mirrors_std.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "mirrors_std.mtl"
+    },
+    {
+      "name": "Rims",
+      "obj": "rims.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "rims.mtl"
+    },
+    {
+      "name": "Rs23-160",
+      "obj": "rs23-160.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "rs23-160.mtl"
+    },
+    {
+      "name": "Std Cabguard",
+      "obj": "std_cabguard.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "std_cabguard.mtl"
+    },
+    {
+      "name": "Std Decking",
+      "obj": "std_decking.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "std_decking.mtl"
+    },
+    {
+      "name": "Worklights1",
+      "obj": "worklights1.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "worklights1.mtl"
+    }
+  ]
+}
