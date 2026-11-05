@@ -1,0 +1,13 @@
+These runtime assets were not available in the files supplied to Copilot for this turn.
+Copy them from your working CAD viewer project into this package before publishing:
+
+ROOT:
+  tinker.obj
+  obj.mtl
+  aarfontein_pan_4k.hdr
+
+MODELS FOLDER:
+  models/manifest.json
+  all OBJ/MTL files currently used by models/manifest.json
+
+Do not rename the assets unless their paths are also changed in index.html or the manifest.

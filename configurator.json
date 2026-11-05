@@ -1,0 +1,72 @@
+{
+  "product": "Autocar ACTT",
+  "version": 1,
+  "sections": [
+    {
+      "id": "application",
+      "label": "Application",
+      "description": "Operating profile and trailer requirements.",
+      "subsections": [
+        {"id":"dutyCycle","label":"Duty cycle","type":"select","default":"yard","options":[
+          {"id":"yard","label":"Yard spotting"},
+          {"id":"distribution","label":"Distribution center"},
+          {"id":"industrial","label":"Industrial / severe duty"}
+        ]}
+      ]
+    },
+    {
+      "id": "exterior",
+      "label": "Exterior",
+      "description": "Exterior equipment and appearance.",
+      "subsections": [
+        {"id":"fuelTank","label":"Fuel tank","type":"radio","default":"round","options":[
+          {"id":"round","label":"Round fuel tank","description":"Standard cylindrical tank with LH access steps.","rules":{"show":["group:roundTank","group:lhSteps","group:forcedRoundAndStep"],"hide":["group:squareTank"]}},
+          {"id":"square","label":"Square step fuel tank","description":"LH rail tank with integrated step profile.","rules":{"show":["group:squareTank"],"hide":["group:roundTank","group:lhSteps","group:forcedRoundAndStep"]},"notice":"LH steps, round tank, straps and bracket are hidden automatically."}
+        ]},
+        {"id":"lighting","label":"Lighting","type":"select","default":"standard","options":[
+          {"id":"standard","label":"Standard lighting"},
+          {"id":"led","label":"LED work-light package"},
+          {"id":"beacon","label":"LED package + beacon"}
+        ]}
+      ]
+    },
+    {
+      "id": "powertrain",
+      "label": "Powertrain",
+      "description": "Power system and performance settings.",
+      "subsections": [
+        {"id":"powerSystem","label":"Power system","type":"select","default":"diesel","options":[{"id":"diesel","label":"Diesel"},{"id":"electric","label":"Battery electric"}]},
+        {"id":"speedLimit","label":"Speed limit","type":"select","default":"25","options":[{"id":"15","label":"15 mph"},{"id":"25","label":"25 mph"},{"id":"33","label":"33 mph"}]}
+      ]
+    },
+    {
+      "id": "chassis",
+      "label": "Chassis & axles",
+      "description": "Frame, dimensions, axles and decking.",
+      "subsections": [
+        {"id":"wheelbase","label":"Wheelbase","type":"select","default":"standard","options":[{"id":"standard","label":"Standard"},{"id":"long","label":"Long wheelbase"}]},
+        {"id":"decking","label":"Decking","type":"select","default":"standard","options":[{"id":"standard","label":"Standard deck"},{"id":"extended","label":"Extended deck"},{"id":"none","label":"No deck"}]},
+        {"id":"frontAxle","label":"Front axle rating","type":"select","default":"12000","options":[{"id":"12000","label":"12,000 lb"},{"id":"14000","label":"14,000 lb"}]},
+        {"id":"rearAxle","label":"Rear axle rating","type":"select","default":"23000","options":[{"id":"23000","label":"23,000 lb"},{"id":"26000","label":"26,000 lb"}]}
+      ]
+    },
+    {
+      "id": "cab",
+      "label": "Cab & operator",
+      "description": "Cab equipment and operator environment.",
+      "subsections": [
+        {"id":"seat","label":"Operator seat","type":"select","default":"standard","options":[{"id":"standard","label":"Standard suspension seat"},{"id":"premium","label":"Premium heated seat"}]},
+        {"id":"climate","label":"Climate","type":"select","default":"hvac","options":[{"id":"hvac","label":"HVAC"},{"id":"cold","label":"Cold-weather package"}]}
+      ]
+    },
+    {
+      "id": "safety",
+      "label": "Safety & technology",
+      "description": "Cameras, sensors and connected systems.",
+      "subsections": [
+        {"id":"camera","label":"Camera system","type":"select","default":"rear","options":[{"id":"none","label":"None"},{"id":"rear","label":"Rear camera"},{"id":"surround","label":"360-degree camera"}]},
+        {"id":"telematics","label":"Telematics","type":"select","default":"standard","options":[{"id":"standard","label":"Standard telematics"},{"id":"advanced","label":"Advanced fleet integration"}]}
+      ]
+    }
+  ]
+}
