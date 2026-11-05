@@ -275,6 +275,27 @@
       "mtl": "headlight.mtl"
     },
     {
+      "name": "HVAC",
+      "obj": "hvac.obj",
+      "enabled": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mtl": "hvac.mtl"
+    },
+    {
       "name": "Isb Aft Stack",
       "obj": "isb_aft_stack.obj",
       "enabled": true,
